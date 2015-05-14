@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="k2" method="upgrade">
+    <name>PLG_EXTRAFIELD_TAB</name>
+    <author>Mai Vu</author>
+    <creationDate>Feb 2014</creationDate>
+    <copyright>@copyright	Copyright (c) 2006 - 2013 Vcontact. All rights reserved.</copyright>
+    <authorEmail>info@toancautech.net</authorEmail>
+    <authorUrl>www.extensions.taotrangweb.org</authorUrl>
+    <version>1.0</version>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>PLG_EXTRAFIELD_TAB_DESC</description>
+    <files>
+        <filename plugin="extrafieldtab">extrafieldtab.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>language</folder>
+        <folder>elements</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field type="list" name="display" label="PLG_EXTRAFIELD_TAB_DISPLAY" default="0">
+                    <option value="1">PLG_EXTRAFIELD_TAB_WITH_ITEM_CONTENT</option>
+                    <option value="2">PLG_EXTRAFIELD_TAB_ABOVE_CONTENT</option>
+                    <option value="3">PLG_EXTRAFIELD_TAB_BELOW_CONTENT</option>
+                    <option value="4">PLG_EXTRAFIELD_TAB_BELOW_INTROTEXT</option>
+                    <option value="5">PLG_EXTRAFIELD_TAB_INTO_CONTENT_WITH_CODE</option>
+                </field>
+                <field type="list" name="jquery" default="0" label="PLG_EXTRAFIELD_JQUERY">
+                    <option value="0">PLG_EXTRAFIELD_TAB_NO</option>
+                    <option value="1.8.3">1.8.3</option>
+                    <option value="1.9.0">1.9.0</option>
+                    <option value="1.9.1">1.9.1</option>
+                    <option value="1.10.0">1.10.0</option>
+                    <option value="1.10.1">1.10.1</option>
+                    <option value="1.10.2">1.10.2</option>
+                    <option value="2.0.0">2.0.0</option>
+                    <option value="2.0.1">2.0.1</option>
+                    <option value="2.0.2">2.0.2</option>
+                    <option value="2.0.3">2.0.3</option>
+                </field>
+                <field type="list" name="core" label="PLG_EXTRAFIELD_TAB_CORE" default="bootstrap">
+                    <option value="bootstrap">PLG_EXTRAFIELD_TAB_CORE_BOOTSTRAP</option>
+                    <option value="mootools">PLG_EXTRAFIELD_TAB_CORE_MOOTOOLS</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+    <fields group="item-extra-fields">
+        <fieldset addfieldpath="/plugins/k2/extrafieldtab/elements">
+            <field type="list" name="istab" label="PLG_EXTRAFIELD_TAB_AS_TAB" default="1">
+                <option value="1">PLG_EXTRAFIELD_TAB_YES</option>
+                <option value="0">PLG_EXTRAFIELD_TAB_NO</option>
+            </field>
+            <field type="list" name="display" label="PLG_EXTRAFIELD_TAB_DISPLAY">
+                <option value="0">PLG_EXTRAFIELD_TAB_PLUGIN_PARAMS</option>
+                <option value="1">PLG_EXTRAFIELD_TAB_WITH_ITEM_CONTENT</option>
+                <option value="2">PLG_EXTRAFIELD_TAB_ABOVE_CONTENT</option>
+                <option value="3">PLG_EXTRAFIELD_TAB_BELOW_CONTENT</option>
+                <option value="4">PLG_EXTRAFIELD_TAB_BELOW_INTROTEXT</option>
+                <option value="5">PLG_EXTRAFIELD_TAB_INTO_CONTENT_WITH_CODE</option>
+            </field>
+            <field type="text" name="itemtexttitle" label="PLG_EXTRAFIELD_TAB_ITEMTEXT_TITLE" default="Overview" size="45" filter="string" />
+            <field type="extrafields" name="fid" label="PLG_EXTRAFIELD_TAB_SELECT_FIELDS" />
+        </fieldset>
+    </fields>
+</extension>

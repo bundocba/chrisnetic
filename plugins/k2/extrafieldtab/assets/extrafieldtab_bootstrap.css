@@ -1,0 +1,260 @@
+.extrafieldtab .nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.extrafieldtab .nav:before,
+.extrafieldtab .nav:after {
+    content: " ";
+    display: table;
+}
+.extrafieldtab .nav:after {
+    clear: both;
+}
+.extrafieldtab .nav > li {
+    position: relative;
+    display: block;
+}
+.extrafieldtab .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.extrafieldtab .nav > li > a:hover,
+.extrafieldtab .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+.extrafieldtab .nav > li.disabled > a {
+    color: #999999;
+}
+.extrafieldtab .nav > li.disabled > a:hover,
+.extrafieldtab .nav > li.disabled > a:focus {
+    color: #999999;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: not-allowed;
+}
+.extrafieldtab .nav .open > a,
+.extrafieldtab .nav .open > a:hover,
+.extrafieldtab .nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #428bca;
+}
+.extrafieldtab .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.extrafieldtab .nav > li > a > img {
+    max-width: none;
+}
+.extrafieldtab .nav-tabs {
+    border-bottom: 1px solid #dddddd;
+}
+.extrafieldtab .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.extrafieldtab .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.extrafieldtab .nav-tabs > li > a:hover {
+    border-color: #eeeeee #eeeeee #dddddd;
+}
+.extrafieldtab .nav-tabs > li.active > a,
+.extrafieldtab .nav-tabs > li.active > a:hover,
+.extrafieldtab .nav-tabs > li.active > a:focus {
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+.extrafieldtab .nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.extrafieldtab .nav-tabs.nav-justified > li {
+    float: none;
+}
+.extrafieldtab .nav-tabs.nav-justified > li > a {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.extrafieldtab .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+@media (min-width: 768px) {
+    .extrafieldtab .nav-tabs.nav-justified > li {
+        display: table-cell;
+        width: 1%;
+    }
+    .extrafieldtab .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0;
+    }
+}
+.extrafieldtab .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+.extrafieldtab .nav-tabs.nav-justified > .active > a,
+.extrafieldtab .nav-tabs.nav-justified > .active > a:hover,
+.extrafieldtab .nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+    .extrafieldtab .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #dddddd;
+        border-radius: 4px 4px 0 0;
+    }
+    .extrafieldtab .nav-tabs.nav-justified > .active > a,
+    .extrafieldtab .nav-tabs.nav-justified > .active > a:hover,
+    .extrafieldtab .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: #ffffff;
+    }
+}
+.extrafieldtab .nav-pills > li {
+    float: left;
+}
+.extrafieldtab .nav-pills > li > a {
+    border-radius: 4px;
+}
+.extrafieldtab .nav-pills > li + li {
+    margin-left: 2px;
+}
+.extrafieldtab .nav-pills > li.active > a,
+.extrafieldtab .nav-pills > li.active > a:hover,
+.extrafieldtab .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #428bca;
+}
+.extrafieldtab .nav-stacked > li {
+    float: none;
+}
+.extrafieldtab .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0;
+}
+.extrafieldtab .nav-justified {
+    width: 100%;
+}
+.extrafieldtab .nav-justified > li {
+    float: none;
+}
+.extrafieldtab .nav-justified > li > a {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.extrafieldtab .nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+@media (min-width: 768px) {
+    .extrafieldtab .nav-justified > li {
+        display: table-cell;
+        width: 1%;
+    }
+    .extrafieldtab .nav-justified > li > a {
+        margin-bottom: 0;
+    }
+}
+.extrafieldtab .nav-tabs-justified {
+    border-bottom: 0;
+}
+.extrafieldtab .nav-tabs-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+.extrafieldtab .nav-tabs-justified > .active > a,
+.extrafieldtab .nav-tabs-justified > .active > a:hover,
+.extrafieldtab .nav-tabs-justified > .active > a:focus {
+    border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+    .extrafieldtab .nav-tabs-justified > li > a {
+        border-bottom: 1px solid #dddddd;
+        border-radius: 4px 4px 0 0;
+    }
+    .extrafieldtab .nav-tabs-justified > .active > a,
+    .extrafieldtab .nav-tabs-justified > .active > a:hover,
+    .extrafieldtab .nav-tabs-justified > .active > a:focus {
+        border-bottom-color: #ffffff;
+    }
+}
+.extrafieldtab .tab-content > .tab-pane {
+    display: none;
+}
+.extrafieldtab .tab-content > .active {
+    display: block;
+}
+.extrafieldtab .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+/*style for slides*/
+
+.extrafieldtab .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.extrafieldtab .panel {
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.extrafieldtab .panel-default {
+    border-color: #DDD;
+}
+
+.extrafieldtab .panel-group {
+    margin-bottom: 20px;
+}
+.extrafieldtab .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.extrafieldtab .panel-group .panel-heading {
+    border-bottom: 0;
+}
+.extrafieldtab .panel-default>.panel-heading {
+    color: #333;
+    background-color: #F5F5F5;
+    border-color: #DDD;
+}
+.extrafieldtab .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.extrafieldtab .panel-title>a {
+    color: inherit;
+}
+.extrafieldtab .collapse {
+    display: none;
+}
+.extrafieldtab .collapse.in {
+    display: block;
+}
+.extrafieldtab .panel-body {
+    padding: 15px;
+}
+.extrafieldtab .panel-group .panel-heading+.panel-collapse .panel-body {
+    border-top: 1px solid #DDD;
+}
+.extrafieldtab .panel-default>.panel-heading+.panel-collapse .panel-body {
+    border-top-color: #DDD;
+}

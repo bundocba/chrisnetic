@@ -1,0 +1,154 @@
+.componentheading{
+	text-align: center;
+	color: #d91573;
+	font-size: 48px;
+	font-family: 'Minion Pro';
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.contact_main{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 20px;
+	float: left;
+}
+.contact_left{
+	width: 44%;
+	float: left;
+	padding: 40px 20px 20px 40px;
+	font-family: 'Century Gothic';
+	color: #363636;
+	font-size: 16px;
+	font-weight: 500;
+}
+.contact_left div
+{
+	
+	width: 100%;
+	float: left;
+	
+}
+.contact_left div.companyname,.contact_left div.name,.contact_left div.email,.contact_left div.contact,.contact_left div.message,.contact_left div.captcha
+{
+	margin-bottom: 15px;
+}
+.contact_left .title{
+	font-family: 'Century Gothic';
+	color: #d91573;
+	font-size: 21px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contact_left div input{
+	width: 343px;
+	height: 35px;
+	background-color: #F8F8F8;
+	border-radius: 1px 1px 1px 1px;
+	border: 1px solid #DCDCDC;
+	float: right;
+	margin-top: -5px;
+  margin-bottom: 5px;
+	
+}
+.contact_left div textarea{
+	width: 340px;
+	height: 115px;
+	background-color: #F8F8F8;
+	border-radius: 1px 1px 1px 1px;
+	border: 1px solid #DCDCDC;
+	float: right;
+	
+}
+.contact_right{
+	float:left;
+	padding: 40px 20px 20px 15px;
+	 width: 47%;
+}
+
+.contact_left div.captcha div div div
+{
+	float: right;
+}
+.recaptcha_only_if_privacy{
+	display: none;
+}
+#recaptcha_area{
+	padding-right: 32px;
+	margin-top: -20px;
+}
+.contact_left .send{
+	width: 100%;
+	  margin-top: 15px;
+}
+.contact_left .send div{
+	width: 170px !important;
+	margin: 0 auto !important;
+	float: none;
+}
+.contact_left .send div input{
+	width: 170px !important;
+	height: 55px !important;
+	background-color: white !important;
+	border: none !important;
+	background:url(../images/rows.png)no-repeat;
+	background-position: left;
+	font-family: 'Century Gothic';
+	color: #363636;
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.contact_right .title{
+	font-family: 'Century Gothic';
+	color: #d91573;
+	font-size: 21px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.contact_right  > p{
+	font-family: 'Century Gothic';
+  font-size: 16px;
+  color: #363636;
+  font-weight: bold;
+}
+.contact_right .lable1{
+	float: left;
+	font-family: 'Century Gothic';
+	font-size: 16px;
+	color: #363636;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.contact_right .lable1 .item_1{
+	width: 50%;
+	float: left;
+	line-height: 2;
+}
+.contact_right .lable1 .item_2{
+	width: 50%;
+	float: left;
+	line-height: 2;
+	text-align: left;
+
+}
+.contact_right .lable2{
+	float: left;
+	font-family: 'Century Gothic';
+	font-size: 16px;
+	color: #363636;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 20px;
+}
+input.rsform-submit-button{
+	margin-left: 540px;
+}

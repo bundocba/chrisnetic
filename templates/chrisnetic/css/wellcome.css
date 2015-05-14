@@ -1,0 +1,94 @@
+.wellcome{
+	height: 375px;
+	padding-top: 55px;
+	padding-bottom: 60px;
+	
+
+}
+.wellcome_css ul ,.wellcome_css ul li{
+	width: 1170px;
+	height: 375px;
+	margin: 0 auto;
+	list-style: none;
+	margin-left: 25px;
+}
+.moduleItemIntrotext{
+	position: relative;
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img{
+	float: left;
+	border: none;
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext{
+	padding: 0;
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img{
+	margin: 0;
+	margin-right: 50px;
+}
+.moduleItemIntrotext a img{
+	min-width: 375px;
+	min-height: 375px;
+    max-width: 375px;
+  	max-height: 375px;
+}
+.even{
+	padding: 0;
+}
+.wellcome_ItemTitle{
+	padding-top: 35px;
+	margin-bottom: 30px;
+}
+.wellcome_ItemTitle a{
+	color: #662013;
+	font-size: 36px;
+	font-family: 'Minion Pro';
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.wellcome_IntroText{
+	padding-right: 60px;
+
+}
+.wellcome_IntroText p{
+	text-align: justify;
+	font-family: 'Century Gothic';
+	font-size: 18px;
+	line-height: 2;
+}
+.wellcome_redmore{
+	float: right;
+	width: 165px;
+	height: 48px;
+	position: relative;
+	top:-5px;
+	background: url(../images/rows.png)no-repeat;
+	background-position: left;
+}
+.wellcome_redmore a{
+	padding-right: 60px;
+	float: right;
+	padding-top: 13px;
+	font-family: 'Century Gothic';
+	color: #363636;
+	font-weight: bold;
+	font-size: 18px;
+}
+.title_welcome{
+	  margin-top: 50px;  
+	    margin-bottom: -26px;
+}
+.title_welcome div div p{
+	font-family: 'Minion Pro';
+	font-size: 48px;
+	color: #d91573;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ .boder{
+	width: 20%;
+  
+  margin: 0 auto;
+  border-bottom: 3px solid #662013;;
+}

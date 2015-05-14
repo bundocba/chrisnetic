@@ -1,0 +1,51 @@
+.tab-content-content{
+	width: 100%;
+ 	float: left;
+    margin-top: 30px;
+    list-style: none;
+  	padding: 0;
+}
+.tab-content-product{
+	margin-bottom: 10px;
+}
+.tab-content-product>.panel-heading-content{
+  color: #333;
+  background-color: #E0E0E0;
+  border-color: #ddd;
+   height: 45px;
+     margin-bottom: 10px;
+}
+
+.tab-content-product>.panel-heading-content .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+ padding-top: 10px;
+ text-align: center;
+   
+}
+.tab-content-product>.panel-heading-content .panel-title a{
+  color: black;
+   font-weight: bold;
+  text-align: center;
+  font-family: 'Century Gothic';
+  text-decoration: none;
+   
+}
+.panel-body-product{
+	display: none;
+}
+
+.panel-body-product-click{
+	display: block;
+}
+.tab-content-product>.panel-heading-content:hover{
+  color: #333;
+  background-color: #d91573;
+  border-color: #ddd;
+  height: 45px;
+  cursor: pointer;
+}
+.tab-content-product>.panel-heading-content:hover >.panel-title a{
+  color: white; 
+}
